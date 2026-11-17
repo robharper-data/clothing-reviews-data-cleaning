@@ -1,0 +1,76 @@
+datasetNo,indexOfdf,Id,ColumnName,Original,Modified,ErrorType,Fixing
+dataset1,ALL,ALL,ClothID,ALL,ALL,Incorrect data type,Converted from Object to Integer as ClothID can only be an int value.
+dataset1,ALL,ALL,Age,ALL,ALL,Incorrect data type,Converted from Object to Integer as Age can only be an int value.
+dataset1,193,1081,Age,3,Median of valid ages 41.0,Impossible value,Imputed median value
+dataset1,1501,167,Age,3,Median of valid ages 41.0,Impossible value,Imputed median value
+dataset1,2550,1094,Age,3,Median of valid ages 41.0,Impossible value,Imputed median value
+dataset1,3915,1066,Age,4,Median of valid ages 41.0,Impossible value,Imputed median value
+dataset1,4181,1080,Age,2,Median of valid ages 41.0,Impossible value,Imputed median value
+dataset1,352,895,Age,83, ,Outliers,Left as they likely represent real values
+dataset1,430,921,Age,83, ,Outliers,Left as they likely represent real values
+dataset1,661,1060,Age,85, ,Outliers,Left as they likely represent real values
+dataset1,767,1025,Age,92, ,Outliers,Left as they likely represent real values
+dataset1,788,877,Age,82, ,Outliers,Left as they likely represent real values
+dataset1,1012,1028,Age,91, ,Outliers,Left as they likely represent real values
+dataset1,1035,226,Age,79, ,Outliers,Left as they likely represent real values
+dataset1,1192,1059,Age,79, ,Outliers,Left as they likely represent real values
+dataset1,1316,1059,Age,85, ,Outliers,Left as they likely represent real values
+dataset1,1417,868,Age,86, ,Outliers,Left as they likely represent real values
+dataset1,1435,833,Age,81, ,Outliers,Left as they likely represent real values
+dataset1,1821,1130,Age,80, ,Outliers,Left as they likely represent real values
+dataset1,2215,1079,Age,80, ,Outliers,Left as they likely represent real values
+dataset1,2540,872,Age,84, ,Outliers,Left as they likely represent real values
+dataset1,2698,867,Age,79, ,Outliers,Left as they likely represent real values
+dataset1,2795,1078,Age,99, ,Outliers,Left as they likely represent real values
+dataset1,2942,910,Age,83, ,Outliers,Left as they likely represent real values
+dataset1,3087,1036,Age,79, ,Outliers,Left as they likely represent real values
+dataset1,3093,949,Age,83, ,Outliers,Left as they likely represent real values
+dataset1,3182,1004,Age,79, ,Outliers,Left as they likely represent real values
+dataset1,3237,1078,Age,84, ,Outliers,Left as they likely represent real values
+dataset1,3429,831,Age,83, ,Outliers,Left as they likely represent real values
+dataset1,3430,1103,Age,91, ,Outliers,Left as they likely represent real values
+dataset1,3828,1142,Age,83, ,Outliers,Left as they likely represent real values
+dataset1,3868,101,Age,79, ,Outliers,Left as they likely represent real values
+dataset1,3958,825,Age,84, ,Outliers,Left as they likely represent real values
+dataset1,3974,872,Age,83, ,Outliers,Left as they likely represent real values
+dataset1,4286,720,Age,80, ,Outliers,Left as they likely represent real values
+dataset1,4416,937,Age,83, ,Outliers,Left as they likely represent real values
+dataset1,4783,1078,Age,82, ,Outliers,Left as they likely represent real values
+dataset1,4860,1091,Age,83, ,Outliers,Left as they likely represent real values
+dataset1,5210,863,Age,89, ,Outliers,Left as they likely represent real values
+dataset1,6250,1025,Age,80, ,Outliers,Left as they likely represent real values
+dataset1,ALL,ALL,Customer Rating,ALL,ALL,Incorrect data type,Converted from object to int
+dataset1,1939,829,Customer Rating,5.25,5,Impossible Value,Round down to nearest int value as most logical option
+dataset1,3198,860,Customer Rating,5.25,5,Impossible Value,Round down to nearest int value as most logical option
+dataset1,ALL,ALL,Positive_Review_Count,ALL,ALL,Incorrect data type,"Converted Object to Integer, as it is a count and can only hold integer values."
+dataset1,Positive_Review_Count outliers,Positive_Review_Count outliers,Positive_Review_Count,ALL,ALL,Outliers,"Left them in place, as imputing or removing them could be detrimental to data integrity. Data transformation may be a more suitable approach to dealing with these outliers."
+dataset1,915,975,Category,Jacktes,Jackets,Mispelling/Typo,Updated the incorrect values with the correct spelling
+dataset1,4064,867,Category,Kints,Knits,Mispelling/Typo,Updated the incorrect values with the correct spelling
+dataset1,4915,999,Category,kSirts,Skirts,Mispelling/Typo,Updated the incorrect values with the correct spelling
+dataset1,ALL,ALL,Online_Time,ALL,ALL,Incorrect data type,Converted from object to Float
+dataset1,ALL,ALL,Online_Time,ALL,ALL,Long floating point number,Rounded to 3 decimals
+dataset1,322,863,Online_Time,710.584,9.289,Outliers,Imputed median because these values greater than 700 minutes were extreme and likely erroneous.
+dataset1,399,1095,Online_Time,706.162,9.289,Outliers,Imputed median because these values greater than 700 minutes were extreme and likely erroneous.
+dataset1,1363,1080,Online_Time,712.308,9.289,Outliers,Imputed median because these values greater than 700 minutes were extreme and likely erroneous.
+dataset1,2221,936,Online_Time,711.097,9.289,Outliers,Imputed median because these values greater than 700 minutes were extreme and likely erroneous.
+dataset1,2355,1020,Online_Time,710.685,9.289,Outliers,Imputed median because these values greater than 700 minutes were extreme and likely erroneous.
+dataset1,2408,1094,Online_Time,707.21,9.289,Outliers,Imputed median because these values greater than 700 minutes were extreme and likely erroneous.
+dataset1,2424,185,Online_Time,728.258,9.289,Outliers,Imputed median because these values greater than 700 minutes were extreme and likely erroneous.
+dataset1,2466,815,Online_Time,705.024,9.289,Outliers,Imputed median because these values greater than 700 minutes were extreme and likely erroneous.
+dataset1,2939,952,Online_Time,705.897,9.289,Outliers,Imputed median because these values greater than 700 minutes were extreme and likely erroneous.
+dataset1,3093,949,Online_Time,713.363,9.289,Outliers,Imputed median because these values greater than 700 minutes were extreme and likely erroneous.
+dataset1,4102,1,Online_Time,705.34,9.289,Outliers,Imputed median because these values greater than 700 minutes were extreme and likely erroneous.
+dataset1,5086,835,Online_Time,707.379,9.289,Outliers,Imputed median because these values greater than 700 minutes were extreme and likely erroneous.
+dataset1,5896,774,Online_Time,710.192,9.289,Outliers,Imputed median because these values greater than 700 minutes were extreme and likely erroneous.
+dataset1,5943,1110,Online_Time,703.445,9.289,Outliers,Imputed median because these values greater than 700 minutes were extreme and likely erroneous.
+dataset1,ALL,ALL,Cost,ALL,ALL,Incorrect data type,Converted from object to Float
+dataset1,ALL,ALL,Cost,ALL,ALL,Long floating point number,Rounded to 3 decimals
+dataset1,858,862,Cost,-1,75.02233023255813,Outliers/Impossible values,Imputed mean of matching ClothID as linear regression model was highly unreliable for prediction.
+dataset1,1770,1003,Cost,-1,55.8186,Outliers/Impossible values,Imputed mean of matching ClothID as linear regression model was highly unreliable for prediction.
+dataset1,4584,1078,Cost,-1,94.75117562724014,Outliers/Impossible values,Imputed mean of matching ClothID as linear regression model was highly unreliable for prediction.
+dataset1,4638,868,Cost,-1,70.60872093023255,Outliers/Impossible values,Imputed mean of matching ClothID as linear regression model was highly unreliable for prediction.
+dataset1,4885,863,Cost,-1,73.89323376623378,Outliers/Impossible values,Imputed mean of matching ClothID as linear regression model was highly unreliable for prediction.
+dataset1,4969,1066,Cost,-1,74.55062962962963,Outliers/Impossible values,Imputed mean of matching ClothID as linear regression model was highly unreliable for prediction.
+dataset1,5675,842,Cost,-1,43.302,Outliers/Impossible values,Imputed mean of matching ClothID as linear regression model was highly unreliable for prediction.
+dataset1,6119,1126,Cost,-1,110.21127777777778,Outliers/Impossible values,Imputed mean of matching ClothID as linear regression model was highly unreliable for prediction.
+dataset1,ALL,ALL,Recommended_IND,ALL,ALL,Incorrect data type,Changed from object to boolean
